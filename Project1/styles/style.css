@@ -1,0 +1,149 @@
+/*  Name: styles.css for Project 1
+	Author: Michelle Estanol
+    Purpose: Provides CSS styling for website.
+ */
+ 
+body{
+    padding: 0 1em;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ #divHowTo{
+     padding: 0em 1em 0 1em;
+     border: 1px solid #fff;
+ }
+
+footer{
+    width: 100%;
+    height: 5em;
+}
+
+#divButtons{
+    float:right;
+}
+
+label{
+    display: block;
+}
+
+input, select{
+    margin: 0.25em 0 1.5em 0;
+}
+
+ input[type='submit']{
+     text-transform: uppercase;
+     font-size: 1.25em;
+     padding: 0.5em;
+     margin: 1em 0 0 0.5em;
+ }
+
+input[type="radio"]{
+    display: inline;
+}
+
+ .label--radio{
+     display: inline;
+     margin-right: 1em;
+ }
+
+.label--chkbox{
+    display: inline;
+    margin-left: 0.5em;
+}
+
+ h1{
+     margin-bottom: 1em;
+     text-align: center;
+ }
+
+ h2{
+     margin: 0 auto;
+     margin-bottom: 2em;
+     border: 1px solid;
+     max-width: 50%;
+     text-align: center;
+ }
+
+ h3{
+    clear: left;   
+    margin-top: 1em;
+}
+    h3:first-of-type{
+        margin-top: 0;
+    }
+
+ .xdebug-error, .xe-warning{
+     color: #000;
+ }
+
+ #chkboxPurchase{
+    list-style-type: none;
+ }
+
+ label[for="howPurchased"], label[for="purchases[]"]{
+     display: inline;
+     clear:left;
+ }
+
+ .form__ul--radio{
+    list-style-type: none;
+    height: 2em;
+}
+    .form__ul--radio label{
+        margin-left: 0.5em;
+    }
+
+#radioPurchase li, ul[id^="radioSatisfaction"] li{
+    display: block;
+    float: left;
+    clear:right;
+}
+
+.form__label--select{
+    clear: left;
+}
+
+.label--error{
+    margin-left: .75em;
+    display: inline;
+    color: red;
+    font-weight: bold;
+    clear: left;
+}
+
+label[for^="recommend"]{
+    display:inline;
+}
+
+select[id^="recommend"]{
+    display: block;
+}
+
+
+#tblSummary{
+    width: 100%;
+    border-collapse: collapse;
+}
+    #tblSummary *{
+        border: 1px solid #fff;
+    }
+
+    #tblSummary th{
+        background-color: indigo;
+    }
+
+    #tblSummary tr > td{
+        width: 45%;
+        padding-left: 1em;
+    }
+
+    #tblSummary tr > td:first-child{
+        width: 10%;
+        padding-left: 0;
+        background-color: firebrick;
+        text-align: center;
+    
+    }
